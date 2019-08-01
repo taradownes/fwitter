@@ -1,0 +1,186 @@
+*{
+  box-sizing: border-box;
+  color: rgb(75, 75, 75);
+  font-family: 'Raleway', Arial, sans-serif;
+}
+
+body {
+  background: white;
+  color: rgba(255, 255, 255, 0.7);
+  padding: 0;
+  margin: 0;
+}
+.login{
+  background: url("https://images.pexels.com/photos/255379/pexels-photo-255379.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500") center no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#create-box{
+  margin-top: 60px;
+}
+.login-box {
+  margin: 0 auto;
+  width: 45%;
+  min-width: 300px;
+  max-width: 500px;
+  justify-content: center;
+  padding: 20px;
+  border: 1px solid rgb(75, 75, 75);
+  border-radius: 5px;
+}
+.login-box {
+  background: white;
+}
+.input[type=text]{
+  background: rgb(207, 207, 207);
+}
+.nav {
+  width: 100%;
+  margin: 0;
+  color: white;
+  display: flex;
+  border-bottom: 1px white solid;
+  justify-content: space-between;
+  align-content: center;
+  background: rgb(7, 26, 78);
+  border: none;
+}
+.nav form {
+  color: white;
+  padding: 10px; 
+  align-self: center; 
+}
+.nav input {
+  border: none;
+  background: none;
+  color: inherit;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0;
+  transition: all 0.3s ease;
+}
+.nav input:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.nav a {
+  color: white;
+  padding: 10px;
+  text-decoration: none;
+  align-self: center;
+  transition: all 0.3s ease;
+}
+.nav a:hover {
+  color: rgba(255, 255, 255, 0.8);
+}
+.subnav{
+  display: flex;
+}
+.subnav p{
+  padding: 0 10px;
+  color: white;
+}
+.nav i{
+  color: white;
+  padding: 5px 15px;
+  margin: auto 0;
+  font-size: 1.4rem;
+}
+.login-page{
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+  margin: auto;
+}
+.login-page h1{
+  width: 100%;
+  text-align: center;
+}
+
+.heading {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+.heading p, .update{
+  margin: auto 0;
+  background: rgb(0, 107, 5);
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+.heading p:hover, .update:hover{
+  background: rgb(1, 128, 7)
+}
+.delete {
+  margin: auto 0;
+  background: black;
+  padding: 8px;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease;
+}
+.delete:hover {
+  background: rgb(61, 61, 61);
+}
+.heading i {
+  font-size: 1.1rem;
+  padding: 0 0 0 10px;
+  color: white;
+}
+#post{
+  height: 30px;
+}
+.create-post{
+  padding: 5px 20px;
+  display: none;
+}
+input{
+  width: 100%;
+  margin: 4px 0;
+  padding: 4px;
+  font-size: 1rem;
+}
+input[type=radio]{
+  width: 20%;
+}
+.submit-post, #submit, #submit-login{
+  background: rgb(7, 26, 78);
+  color: white;
+  padding: 8px;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border: none;
+}
+.submit-post:hover, #submit:hover, #submit-login:hover{
+  background: rgb(10, 35, 105);
+}
+
+.posts{
+  width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.update-form{
+  display: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1rem;
+}
+.create {
+  margin-top: 40px;
+}
